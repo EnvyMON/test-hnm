@@ -11,7 +11,7 @@ const ProductDetail = () => {
 	const [sizeItem, setSizeItem] = useState(null);
 
 	const getProductData = async(id) => {
-		let url = `https://my-json-server.typicode.com/EnvyMON/test-hnm/${id}`;
+		let url = `https://my-json-server.typicode.com/EnvyMON/test-hnm/products/${id}`;
 		let res = await fetch(url);
 		let data = await res.json();
 		setItemData(data);
