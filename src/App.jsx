@@ -16,7 +16,6 @@ function App() {
 
 	return (
 		<div>
-			<div>hello</div>
 			<Navbar isLogin={isLogin} setIsLogin={setIsLogin}/>
 			
 			<Routes>
