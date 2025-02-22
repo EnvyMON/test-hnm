@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+.login-button {
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px;
+	align-items: center;
+	
+}
+
+.login-button div{
+	cursor: pointer;
+}
+
+.nav-section {
+	display: flex;
+	justify-content: center;
+
+}
+
+.menu-section {
+	display: flex;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.menu-spacer {
+	flex: 1;
+}
+.menu-area {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+
+}
+
+.menu-list {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 0;
+	
+}
+
+.menu-list li {
+	padding: 10px;
+	cursor: pointer;
+	border-bottom: 1px solid white;
+}
+.menu-list li:hover {
+	border-bottom: 1px solid black;
+}
+
+.search-area {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.search-box {
+	border-bottom: 1px solid black;
+	/* padding-top: 30px; */
+	margin-right: 20px;
+}
+
+.search-box input {
+	border: none;
+	outline: none; 
+	padding-left: 10px;
+}
+
+.products-area {
+	cursor: pointer;
+}
+
+.products-area:hover {
+	transform: scale(1.05); /* 호버 시 105% 확대 */
+}
